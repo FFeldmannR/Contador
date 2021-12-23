@@ -13,7 +13,6 @@ import static java.awt.Font.BOLD;
 //
 public class Main {
     public void actionPerformed(JTextField campoTexto1, JLabel palavraDigitada) {
-        System.out.println("clicou");
         if (campoTexto1.getText().isEmpty()){
             palavraDigitada.setText(strings.noWord);
         }else{
